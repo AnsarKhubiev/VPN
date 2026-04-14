@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #191919;
+    color: #eeedeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+
+ol {
+    padding-inline-start: 20px;
+}
+
+a {
+    color: #4ccbf3;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+}
+
+#toast {
+    background: #333;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+#copyField {
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+    cursor: pointer;
+    background-color: #4ccbf3;
+}
